@@ -21910,9 +21910,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: camera
       objectReference: {fileID: 0}
+    - target: {fileID: 3684373580635113500, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.456484
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684373580635113500, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5750313
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871361717997099425, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.456484
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871361717997099425, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5750313
+      objectReference: {fileID: 0}
     - target: {fileID: 5175426722862019718, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: orthographic size
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730199893002398593, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.456484
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730199893002398593, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5750313
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167272334685107097, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.456484
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167272334685107097, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5750313
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266503664619496869, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1648111682}
+    - target: {fileID: 6266503664619496869, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_ParentHash.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6266503664619496869, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_ChildCameras.Array.size
@@ -32273,6 +32313,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7224824951639880692, guid: b4953c13c3e30c74a8f2ac0adb79c971, type: 3}
   m_PrefabInstance: {fileID: 1797734563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1648111682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 73000549513165014, guid: 9cefbf5d4fc06e54a9e07976eb763407, type: 3}
+  m_PrefabInstance: {fileID: 63333135}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1650767506
 PrefabInstance:
