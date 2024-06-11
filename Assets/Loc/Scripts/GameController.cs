@@ -42,7 +42,7 @@ public class GameController : MonoBehaviour
         live--;
         UpdateUI();
 
-        if (live > 0)
+        if (live == 0)
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentSceneIndex);
