@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
     public static GameController Instance { get; private set; }
 
     [SerializeField] int score = 0;
-    [SerializeField] int live = 3;
+    [SerializeField] int live = 1;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI liveText;
     [SerializeField] GameObject gameOverPanel;
@@ -42,15 +42,15 @@ public class GameController : MonoBehaviour
         live--;
         UpdateUI();
 
-        if (live == 0)
-        {
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex);
-        }
-        else
-        {
-            GameOverPanel();
-        }
+        //if (live == 0)
+        //{
+        //    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        //    SceneManager.LoadScene(currentSceneIndex);
+        //}
+        //else
+        //{
+        //    GameOverPanel();
+        //}
     }
 
     public void ResetScore()
@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
 
     public void ResetLives()
     {
-        live = 3;
+        live = 1;
         UpdateUI();
     }
 

@@ -87,10 +87,19 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             _animator.SetTrigger("Dying");
             _rigibody2D.velocity = Vector2.zero;
-
-            GameController.Instance.ProcessPlayerDeath();
-            GameController.Instance.ResetScore();
+            StartCoroutine(HandleDeath());
+            //GameController.Instance.ProcessPlayerDeath();
+            //GameController.Instance.ResetScore();
+            //GameController.Instance.GameOverPanel();
         }
+    }
+    private IEnumerator HandleDeath()
+    {
+        
+        yield return new WaitForSeconds(1f);
+
+      
+        GameController.Instance.GameOverPanel();
     }
 
     void OnFire(InputValue value)
