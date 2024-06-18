@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  live: 3
+  live: 1
   scoreText: {fileID: 6499760609730368711}
   liveText: {fileID: 868600938434190930}
   gameOverPanel: {fileID: 1271839059773703003}
