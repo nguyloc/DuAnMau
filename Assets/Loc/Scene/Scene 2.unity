@@ -7366,7 +7366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7898298861492298930, guid: 40faca3c88a00144aa0458d067dec36e, type: 3}
       propertyPath: live
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7386,6 +7386,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 726916980518665622, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 2146406030}
+    - target: {fileID: 819524793639813308, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 2146406030}
     - target: {fileID: 2804363225095548271, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_Name
       value: camera
@@ -7426,6 +7434,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -3.7249682
       objectReference: {fileID: 0}
+    - target: {fileID: 6242263464634670252, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 2146406030}
     - target: {fileID: 6266503664619496869, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_Follow
       value: 
@@ -7489,6 +7501,10 @@ PrefabInstance:
     - target: {fileID: 6435110092427434755, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364619869557985156, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
+      propertyPath: m_WorldUpOverride
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

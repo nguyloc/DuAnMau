@@ -14298,42 +14298,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: camera
       objectReference: {fileID: 0}
-    - target: {fileID: 3684373580635113500, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.616486
-      objectReference: {fileID: 0}
-    - target: {fileID: 3684373580635113500, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.2550318
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871361717997099425, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.616486
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871361717997099425, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.2550318
-      objectReference: {fileID: 0}
-    - target: {fileID: 5175426722862019718, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: orthographic size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5730199893002398593, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.616486
-      objectReference: {fileID: 0}
-    - target: {fileID: 5730199893002398593, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.2550318
-      objectReference: {fileID: 0}
-    - target: {fileID: 6167272334685107097, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.616486
-      objectReference: {fileID: 0}
-    - target: {fileID: 6167272334685107097, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.2550318
-      objectReference: {fileID: 0}
     - target: {fileID: 6242263464634670252, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
@@ -14346,10 +14310,6 @@ PrefabInstance:
       propertyPath: m_AnimatedTarget
       value: 
       objectReference: {fileID: 397362695}
-    - target: {fileID: 6266503664619496869, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
-      propertyPath: m_ChildCameras.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6278489302242749227, guid: 21f14055eefb4134b824020a25f5b118, type: 3}
       propertyPath: m_Follow
       value: 
